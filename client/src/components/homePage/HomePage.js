@@ -12,6 +12,8 @@ export default function HomePage() {
         height: "100vh"
     })
 
+
+
     return (
 
 
@@ -22,7 +24,7 @@ export default function HomePage() {
                 <ReactMapGL
                     {...viewport}
                     mapboxApiAccessToken={process.env.REACT_APP_BILLBOARD}
-                    // mapStyle="mapbox://styles/ianclark226/ck9biyq6q02qp1jmg9t1ao42t"
+                     mapStyle="mapbox://styles/qss0/ck9m8menx2zeq1jmt6kxxtvxu"
                     onViewportChange={viewport => {
                         setViewport(viewport);
                     }}
